@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+<!-- 	<test name="AmazonTest-InvalidCredentials-Password">
+		<parameter name="uid" value="kbandla2002@gmail.com" />
+		<parameter name="pwd" value="Vidya123@2007" />
+		<classes>
+			<class name="com.Tests.SignInTest"/>
+			<class name="com.Tests.LoginUserIdPageTest"/>
+			<class name="com.Tests.LoginPasswordPageTest"/>
+		</classes>
+	</test> -->
+	<test name="AmazonTest-ValidCredentials-UserId">
+		<parameter name="uid" value="kbandla2002123@gmail.com" />
+		<parameter name="pwd" value="Vidya123@2007" />
+		<classes>
+			<class name="com.Tests.SignInTest"/>
+			<class name="com.Tests.LoginUserIdPageTest"/>
+			<class name="com.Tests.LoginPasswordPageTest"/>
+		</classes>
+	</test>
+	
+</suite>
